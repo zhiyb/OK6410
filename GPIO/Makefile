@@ -6,7 +6,7 @@ SRC	= main.c mem.c
 SUBDIRS = 
 VERSION	= 0.0.1
 
-CROSS	= 
+CROSS	= arm-linux-gnueabi
 OPTIMIZE	= -O3
 STRIP	= false
 DEFS	= -Wall -Werror
