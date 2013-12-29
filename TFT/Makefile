@@ -6,7 +6,7 @@ SRC	= main.cpp mem.c tft.cpp ascii.c
 SUBDIRS = 
 VERSION	= 0.0.1
 
-CROSS	= arm-linux-gnueabi
+CROSS	= arm-linux
 OPTIMIZE	= -O3
 STRIP	= true
 DEFS	= -Wall -Werror
